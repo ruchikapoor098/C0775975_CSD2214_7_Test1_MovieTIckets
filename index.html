@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html>
-<center>
- <head>
-    <title>Movie Ticket Booking</title>
+<head>
     <script src="movie.js"></script>
-	<link rel="stylesheet" href="style.css">
- </head>
-<body onload="onLoaderFunc()">> 
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="onLoaderFunc()">
 <center>
    <div class= "inputForm">
-	<label for="cars">Select Your Movie:</label>
-    <select name="cars" id="cars">
-        <option value="volvo">Sadak 2</option>
-        <option value="saab">Panga</option>
-        <option value="opel">Thappad</option>
-        <option value="audi">Chhapaak</option>
+	<label for="movies">Select Your Movie:</label>
+    <select name="movies" id="movies">
+        <option value="sadak">Sadak 2</option>
+        <option value="panga">Panga</option>
+        <option value="thappad">Thappad</option>
+        <option value="chhapaak">Chhapaak</option>
     </select><br><br>
-	
-	<button onclick="takeData()">Click Here to Select Seats</button>
 	</div>
  <div class="SeatStructure">
 	<center>
@@ -32,8 +28,7 @@
 		</td>
 	<br/>
 	</tr>
-  
-  <tr>
+<tr>
     <td></td>
     <td>1</td>
     <td>2</td>
@@ -228,8 +223,5 @@
 <br/><button onclick="updateTextArea()">Confirm Selection</button>
 </center>
 </div>
-      
-
-
-
- 
+</body>
+</html>
